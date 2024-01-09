@@ -1,0 +1,100 @@
+@media (max-width: 1400px) {
+  .shape-2 {
+    bottom: -700px;
+  }
+}
+
+@media (max-width: 1380px) {
+  .shape-3 {
+    bottom: -500px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .shape-2 {
+    bottom: -650px;
+  }
+  .shape-3 {
+    bottom: -450px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .stat-block h1 {
+    font-size: 80px;
+  }
+
+  .stat-bg {
+    margin-top: 500px;
+  }
+  .shape-1 {
+    bottom: -800px;
+  }
+  .shape-2 {
+    bottom: -900px;
+    left: 400px;
+  }
+  .shape-3 {
+    bottom: -730px;
+    left: 700px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .stat-block h1 {
+    font-size: 60px;
+  }
+  .stat-bg {
+    margin-top: 700px;
+  }
+  .days-60 {
+    bottom: -1400px;
+  }
+  .shape-1 {
+    bottom: -900px;
+    width: 200px;
+  }
+  .shape-2 {
+    bottom: -1050px;
+    left: 250px;
+    width: 200px;
+  }
+  .shape-3 {
+    bottom: -950px;
+    left: 500px;
+  }
+}
+
+@media (max-width: 900px) {
+  .days-60 {
+    bottom: -1300px;
+  }
+  .shape-1 {
+    bottom: -900px;
+    width: 200px;
+  }
+  .shape-2 {
+    bottom: -1000px;
+    left: 250px;
+    width: 200px;
+  }
+  .shape-3 {
+    bottom: -900px;
+    left: 500px;
+  }
+}
+
+@media (max-width: 800px) {
+  .days-60 {
+    bottom: -1300px;
+  }
+}
+
+@media (max-width: 470px) {
+  .stat-block h1 {
+    font-size: 40px;
+  }
+  .stat-bg {
+    margin-top: 700px;
+  }
+}

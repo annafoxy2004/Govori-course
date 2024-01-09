@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@500&family=Roboto:wght@100;400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #08092A;
+  /* background: linear-gradient(to left,#1f2435, rgb(14, 12, 46)); */
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Exo 2";
+}
+
+p,
+li {
+  color: white;
+  font-family: "Exo 2";
+  font-weight: 100;
+}
+
+h1 {
+  color: white;
+  font-family: "Exo 2";
+}
+
+button {
+  font-weight: 100;
+}
+
+.container {
+  width: 86%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.yellow-text-head{
+  color: #e8bf57;
+  font-size: 100px;
+  /* height: 110px; */
+}
+
+.yellow-text-head-last{
+  color: #e8bf57;
+  font-size: 100px;
+  /* height: 110px; */
+}
+
+.yellow-text-head-1{
+  color: #e8bf57;
+  font-size: 100px;
+  /* height: 110px; */
+}
+
+@media all and (max-width: 1100px) {
+  .yellow-text-head-1 {
+    color: #e8bf57;
+    font-size: 80px;
+  }
+
+  .main-yellow-head{
+    color: #e8bf57;
+    font-size: 70px;
+    font-family: "Exo 2";
+    margin-bottom: 20px;
+  }
+
+  .yellow-text-head-last{
+    color: #e8bf57;
+    font-size: 70px;
+    /* height: 110px; */
+  }
+}
+
+@media all and (max-width: 755px) {
+  .yellow-text-head-last{
+    color: #e8bf57;
+    font-size: 50px;
+  }
+}
+
+
+.yellow-text-head-2x{
+  color: #e0c173;
+  font-size: 230px;
+}
+
+@media all and (max-width: 914px) {
+  .yellow-text-head {
+    color: #e8bf57;
+    font-size: 50px;
+  }
+
+  .yellow-text-head-2x{
+    color: #e0c173;
+    font-size: 180px;
+    /* height: -30px; */
+  }
+
+  .rrr{
+    padding-top: 80px;
+  }
+}
+
+.yellow-text-head-3x{
+  color: #e0c173;
+  font-size: 140px;
+  margin-bottom: 0px;
+  /* height: 110px; */
+}
+
+.yellow-text-head-5x{
+  color: #e0c173;
+  font-size: 200px;
+  height: 180px;
+}
+
+.yellow-text-head-6x{
+  color: #e0c173;
+  font-size: 220px;
+  height: 220px;
+}
+
+.main-yellow-head{
+  color: #e8bf57;
+  font-size: 90px;
+  font-family: "Exo 2";
+  margin-bottom: 20px;
+}
+
+.main-yellow-head-2{
+  color: #e8bf57;
+  font-size: 90px;
+  font-family: "Exo 2";
+  height: 80px;
+}
+
+.border-notBuss{
+  border: 0.5px solid #c4c4c4; 
+  border-radius: 1rem; 
+  background-color: rgb(16, 11, 68);
+}
+
+/* ::-webkit-scrollbar { */
+  /* width: 0; Remove scrollbar width */
+/* } */
+
+/* Optional: You can also style the track and handle if needed */
+/* ::-webkit-scrollbar-track { */
+  /* background-color: transparent; Change track color if needed */
+/* } */
+
+/* ::-webkit-scrollbar-thumb { */
+  /* background-color: transparent; Change thumb color if needed */
+/* } */

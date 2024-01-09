@@ -1,0 +1,66 @@
+.req-block-inner {
+  background: linear-gradient(#1f2024, rgb(21, 21, 21));
+}
+
+.btn {
+  border-radius: 14px;
+  border-bottom: 6px solid #9b9167;
+  background: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0.2) -9.66%,
+      rgba(255, 255, 255, 0) 57.3%
+    ),
+    linear-gradient(125deg, #d5caa3 -5.37%, #e1dabe -5.37%, #baae80 75.3%);
+  color: #5f5016;
+  text-align: center;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+/* @media (max-width: 1100px) {
+  .req-block-inner {
+    display: flex;
+    justify-content: center;
+  }
+
+
+} */
+
+@media (max-width: 426px) {
+  .req-block > h1 {
+    font-size: xx-large;
+  }
+
+  .req-block-inner div h1 {
+    font-size: xx-large;
+  }
+
+  .req-block-inner div p {
+    font-size: large;
+  }
+}
+
+@media (max-width: 375px) {
+  .req-block-inner div h1 {
+    margin-left: 20px;
+    font-size: x-large;
+  }
+
+  .req-block-inner div p {
+    margin-left: 20px;
+    font-size: medium;
+  }
+
+  .req-block-inner div span {
+    width: 200px;
+    margin-left: 20px;
+  }
+
+  .req-block-inner button {
+    width: 250px;
+    font-size: 16px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

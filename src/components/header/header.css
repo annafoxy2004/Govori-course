@@ -1,0 +1,95 @@
+/* .bg-image {
+  background-image: url('../../assets/fon.svg');
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 1300px) {
+  .header-block-right p {
+    font-size: 35px;
+  }
+  .header-block-right button {
+    font-size: 20px;
+    padding: 20px 30px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .header-block-right h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+  .header-block-right p {
+    font-size: 30px;
+  }
+  .header-block-right button {
+    font-size: 20px;
+    padding: 20px 30px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .header-block {
+    flex-wrap: wrap-reverse;
+  }
+  .header-block-right p {
+    text-transform: lowercase;
+  }
+  .header-block-right {
+    width: 80%;
+  }
+  .header-block-left p {
+    display: none;
+  }
+  .btn-1 {
+    display: none;
+  }
+  .btn-2 {
+    display: block;
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    font-size: 25px;
+    padding: 20px 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .btn-2 {
+    display: block;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    font-size: 25px;
+    padding: 20px 40px;
+  }
+}
+
+@media (max-width: 450px) {
+  .btn-2 {
+    font-size: 18px;
+    bottom: 50px;
+    left: 0;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 380px) {
+  .header-block-right h1 {
+    font-size: 35px;
+  }
+  .header-block-right p {
+    font-size: 25px;
+  }
+  .btn-2 {
+    left: -30px;
+  }
+}
+
+@media (max-width: 330px) {
+  .btn-2 {
+    left: -50px;
+  }
+} */
