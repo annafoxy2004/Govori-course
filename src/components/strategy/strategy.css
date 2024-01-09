@@ -1,0 +1,10 @@
+@media (max-width: 426px) {
+  .strat-text {
+    font-size: 25px;
+  }
+  .strat-desc {
+    text-align: center;
+    font-size: 23px;
+    margin: 20px 20px 0;
+  }
+}

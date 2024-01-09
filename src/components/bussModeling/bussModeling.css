@@ -1,0 +1,10 @@
+@media (max-width: 426px) {
+  .model-text {
+    font-size: 25px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .model-desc {
+    text-align: center;
+  }
+}

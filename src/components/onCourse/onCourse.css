@@ -1,0 +1,20 @@
+@media (max-width: 426px) {
+  .cour-text {
+    font-size: 30px;
+  }
+  .cour-desc {
+    width: 300px;
+  }
+  .cour-desc p {
+    font-size: 16px;
+    text-align: center;
+    line-height: 25px;
+  }
+  .cour-desc p img {
+    width: 80px;
+  }
+  .cour-text-2 {
+    font-size: 30px;
+    text-align: center;
+  }
+}

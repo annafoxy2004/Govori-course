@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import "./request.css";
 
 const AmoFormsComponent = () => {
   useEffect(() => {
@@ -18,7 +19,6 @@ const AmoFormsComponent = () => {
         },
       };
 
-      
       windowObject[amoFormsPrefix + loadKey] =
         windowObject[amoFormsPrefix + loadKey] ||
         function (f) {

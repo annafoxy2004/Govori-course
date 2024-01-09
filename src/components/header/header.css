@@ -1,3 +1,24 @@
+@media (max-width: 426px) {
+  #nurik-photo,
+  .nurik-photo {
+    width: 1000px !important;
+  }
+
+  .head-text h1 {
+    font-size: 30px;
+    margin: 100px auto 0;
+    width: 80%;
+    text-align: center;
+  }
+
+  .text-head {
+    font-size: 16px;
+  }
+  .btn-head {
+    margin-top: 10px;
+  }
+}
+
 /* .bg-image {
   background-image: url('../../assets/fon.svg');
   background-size: cover;

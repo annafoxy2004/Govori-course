@@ -1,0 +1,11 @@
+@media (max-width: 426px) {
+  .for-text {
+    font-size: 25px;
+  }
+  .for-list li {
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .btn-2 {
+  }
+}

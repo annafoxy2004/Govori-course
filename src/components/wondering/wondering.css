@@ -1,0 +1,9 @@
+@media (max-width: 426px) {
+  .wond-text p {
+    font-size: 30px;
+    text-align: center;
+  }
+  .wond-list li {
+    font-size: 25px;
+  }
+}

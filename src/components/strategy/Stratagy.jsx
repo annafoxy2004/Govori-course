@@ -1,12 +1,13 @@
 import React from "react";
+import "./strategy.css";
 
 const Stratagy = () => {
   return (
     <>
       <div className="mb-24 mt-10 flex flex-col items-center">
-        <h1 className="yellow-text-head ">СТРАТЕГИЯ </h1>
+        <h1 className="yellow-text-head strat-text">СТРАТЕГИЯ </h1>
 
-        <p className="text-3xl font-medium w-[50%] mt-16">
+        <p className="text-3xl font-medium lg:w-[50%] mt-16 strat-desc">
           95 % всех компаний погибают в первые 3 года,
           <br />
           <br />

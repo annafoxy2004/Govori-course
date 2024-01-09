@@ -1,0 +1,15 @@
+@media (max-width: 426px) {
+  .syst-text {
+    font-size: 25px;
+    text-align: center;
+  }
+  .syst-block img {
+    width: 100px;
+  }
+  .syst-block p {
+    font-size: 20px;
+  }
+  .syst-block {
+    margin-bottom: 20px;
+  }
+}

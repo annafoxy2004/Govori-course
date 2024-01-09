@@ -1,0 +1,13 @@
+@media (max-width: 426px) {
+  .not-block {
+    width: 300px;
+  }
+  .not-block p {
+    font-size: 18px;
+    text-align: center;
+  }
+  .not-text {
+    font-size: 25px;
+    text-align: center;
+  }
+}

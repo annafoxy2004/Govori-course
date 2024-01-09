@@ -10,3 +10,16 @@
   justify-content: center;
   align-items: center;
 }
+
+#amoforms_iframe_1266678 {
+  position: fixed !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 1000 !important;
+}
+@media (max-width: 426) {
+  #amoforms_iframe_1266678 {
+    position: fixed !important;
+    margin-right: 100px !important;
+  }
+}

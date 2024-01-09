@@ -22,8 +22,6 @@
     display: flex;
     justify-content: center;
   }
-
-
 } */
 
 @media (max-width: 426px) {
@@ -62,5 +60,18 @@
     padding: 10px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+
+#amoforms_iframe_1266666 {
+  margin: 70px auto !important;
+}
+
+@media (max-width: 426px) {
+  #amoforms_iframe_1266666 > div {
+    display: none !important;
+  }
+  .amoforms__fields__editor-sidebar {
+    display: none !important;
   }
 }

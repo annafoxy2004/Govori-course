@@ -13,6 +13,7 @@ import BuildingSystem from "./components/buildingSystem/BuildingSystem";
 import Stratagy from "./components/strategy/Stratagy";
 import Wondering from "./components/wondering/Wondering";
 import OnCourse from "./components/onCourse/OnCourse";
+import AmoFormsComponent from "./components/request/AmoCRM";
 
 const App = () => {
   return (
@@ -25,12 +26,11 @@ const App = () => {
       <ForWho />
       <Programm />
       <BussModeling />
-      <BuildingSystem/>
-      <Stratagy/>
-      <Wondering/>
-      <OnCourse/>
-
-      <Request />
+      <BuildingSystem />
+      <Stratagy />
+      <Wondering />
+      <OnCourse />
+      <AmoFormsComponent />
     </>
   );
 };

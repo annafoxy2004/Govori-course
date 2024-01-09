@@ -8,7 +8,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  background-color: #08092A;
+  background-color: #08092a;
   /* background: linear-gradient(to left,#1f2435, rgb(14, 12, 46)); */
   margin: 0px;
   padding: 0px;
@@ -38,22 +38,31 @@ button {
   margin-right: auto;
 }
 
-.yellow-text-head{
+.yellow-text-head {
   color: #e8bf57;
   font-size: 100px;
   /* height: 110px; */
 }
 
-.yellow-text-head-last{
+.yellow-text-head-last {
   color: #e8bf57;
   font-size: 100px;
   /* height: 110px; */
 }
 
-.yellow-text-head-1{
+.yellow-text-head-1 {
   color: #e8bf57;
   font-size: 100px;
   /* height: 110px; */
+}
+
+.amoforms_placeholder,
+.js-form-changes-skip,
+.text-input,
+.js-amoforms-font,
+.js-amoforms-color,
+input {
+  color: white !important;
 }
 
 @media all and (max-width: 1100px) {
@@ -62,14 +71,14 @@ button {
     font-size: 80px;
   }
 
-  .main-yellow-head{
+  .main-yellow-head {
     color: #e8bf57;
     font-size: 70px;
     font-family: "Exo 2";
     margin-bottom: 20px;
   }
 
-  .yellow-text-head-last{
+  .yellow-text-head-last {
     color: #e8bf57;
     font-size: 70px;
     /* height: 110px; */
@@ -77,14 +86,13 @@ button {
 }
 
 @media all and (max-width: 755px) {
-  .yellow-text-head-last{
+  .yellow-text-head-last {
     color: #e8bf57;
     font-size: 50px;
   }
 }
 
-
-.yellow-text-head-2x{
+.yellow-text-head-2x {
   color: #e0c173;
   font-size: 230px;
 }
@@ -95,65 +103,79 @@ button {
     font-size: 50px;
   }
 
-  .yellow-text-head-2x{
+  .yellow-text-head-2x {
     color: #e0c173;
     font-size: 180px;
     /* height: -30px; */
   }
 
-  .rrr{
+  .rrr {
     padding-top: 80px;
   }
 }
 
-.yellow-text-head-3x{
+.yellow-text-head-3x {
   color: #e0c173;
   font-size: 140px;
   margin-bottom: 0px;
   /* height: 110px; */
 }
 
-.yellow-text-head-5x{
+.yellow-text-head-5x {
   color: #e0c173;
   font-size: 200px;
   height: 180px;
 }
 
-.yellow-text-head-6x{
+.yellow-text-head-6x {
   color: #e0c173;
   font-size: 220px;
   height: 220px;
 }
 
-.main-yellow-head{
+.main-yellow-head {
   color: #e8bf57;
   font-size: 90px;
   font-family: "Exo 2";
   margin-bottom: 20px;
 }
 
-.main-yellow-head-2{
+.main-yellow-head-2 {
   color: #e8bf57;
   font-size: 90px;
   font-family: "Exo 2";
   height: 80px;
 }
 
-.border-notBuss{
-  border: 0.5px solid #c4c4c4; 
-  border-radius: 1rem; 
+.border-notBuss {
+  border: 0.5px solid #c4c4c4;
+  border-radius: 1rem;
   background-color: rgb(16, 11, 68);
 }
 
 /* ::-webkit-scrollbar { */
-  /* width: 0; Remove scrollbar width */
+/* width: 0; Remove scrollbar width */
 /* } */
 
 /* Optional: You can also style the track and handle if needed */
 /* ::-webkit-scrollbar-track { */
-  /* background-color: transparent; Change track color if needed */
+/* background-color: transparent; Change track color if needed */
 /* } */
 
 /* ::-webkit-scrollbar-thumb { */
-  /* background-color: transparent; Change thumb color if needed */
+/* background-color: transparent; Change thumb color if needed */
 /* } */
+
+input {
+  color: white !important;
+}
+
+@media (max-width: 426px) {
+  .amoforms__fields__editor-sidebar {
+    display: none !important;
+  }
+  #amoforms_form {
+    width: 100% !important;
+    padding: 40px !important;
+  }
+}

@@ -1,4 +1,11 @@
-@media (max-width: 1400px) {
+@media (max-width: 426px) {
+  .stat-text p {
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+/* @media (max-width: 1400px) {
   .shape-2 {
     bottom: -700px;
   }
@@ -97,4 +104,4 @@
   .stat-bg {
     margin-top: 700px;
   }
-}
+} */

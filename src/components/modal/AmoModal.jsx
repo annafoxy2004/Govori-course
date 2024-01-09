@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import "./modal.css";
 
 const AmoModal = ({ setModal }) => {
   useEffect(() => {
@@ -33,11 +34,9 @@ const AmoModal = ({ setModal }) => {
   return (
     <>
       <div
-        className="text-white absolute right-0 text-[40px] top-0 cursor-pointer"
+        className="text-white fixed z-[10000] right-10 text-[40px] top-10 cursor-pointer"
         onClick={() => {
-          setModal(false);
-          // eslint-disable-next-line no-restricted-globals
-          window.location.reload(); // Disabling ESLint warning for this line
+          window.location.reload();
         }}
       >
         &times;
